@@ -12,7 +12,7 @@ It will install the modified version of wine inside ./install so should not impa
 
 ## Installation
 
-- Clone this
+- Clone this `git clone https://github.com/alexcrea/Paint.NetOnWine-Install`
 - run `./install.sh`
 
 It will take a long time to build wine. \
