@@ -3,7 +3,7 @@ This project is a set of small scripts to handle clone, patch, build and install
 
 Project repo: https://github.com/bluesillybeard/Paint.NETOnWine
 
-Note that this is a very unstable version. expect NOTHING to work. this scripts do not mai
+Note that this is a very unstable version. **expect NOTHING to work**. this scripts do not mai
 
 It is expected that you have installed required dependencies to build wine (see https://gitlab.winehq.org/wine/wine/-/wikis/Building-Wine#satisfying-build-dependencies)
 You should also have [Winetricks](https://github.com/winetricks/winetricks) installed
@@ -18,6 +18,8 @@ It will install the modified version of wine inside ./install so should not impa
 It will take a long time to build wine. \
 Afterward, a wine prefix will be created. dotnet48 will prompt you to get installed
 
+The install script was not made with being run twice in mind. likely need to `git reset --hard` inside the source folder 
+
 ## Running
 once installed you can just run `./wine path/to/your/paintdotnet.exe`
 
@@ -25,7 +27,7 @@ once installed you can just run `./wine path/to/your/paintdotnet.exe`
 - `install.sh` try to prepare and install wine then, create prefix 
 - `makeinstall.sh` run make and install wine 64
 - `makeinstall-all.sh` run and and install wine 64 & 32 for wow64
-- `apply-patchs.sh` all apply patch from paint.net on wine to the local wine source
+- `apply-patchs.sh` apply all patchs from paint.net on wine to the local wine source
 - `configure.sh` configure wine build folder (./build/64 and ./build/32)
 - `createprefix.sh` create prefix and install required rependencies
 
