@@ -6,13 +6,13 @@ git clone https://github.com/bluesillybeard/Paint.NETOnWine.git patchs
 
 # apply path & configure
 cd source
-../apply-patchs
+../apply-patchs.sh
 
 cd ..
-./configure
+./configure.sh
 
 # make the project
-./makeinstall-all
+./makeinstall-all.sh
 
 # create prefix
 ./createprefix.sh
