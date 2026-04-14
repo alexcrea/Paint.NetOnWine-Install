@@ -1,5 +1,5 @@
 #!/bin/bash
-export WINEPREFIX="$PWD/prefix"
+export INSTALL_DIR=$PWD/install
 
 mkdir -p ./build/64
 cd ./build/64
