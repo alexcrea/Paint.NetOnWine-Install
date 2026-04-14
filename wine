@@ -1,0 +1,4 @@
+#!/bin/bash
+export WINE="$PWD/install/bin/wine"
+export WINEPREFIX="$PWD/prefix"
+exec "$WINE" "$@"
