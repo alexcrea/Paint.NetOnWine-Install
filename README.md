@@ -20,3 +20,15 @@ Afterward, a wine prefix will be created. dotnet48 will prompt you to get instal
 
 ## Running
 once installed you can just run `./wine path/to/your/paintdotnet.exe`
+
+## Scripts
+- `install.sh` try to prepare and install wine then, create prefix 
+- `makeinstall.sh` run make and install wine 64
+- `makeinstall-all.sh` run and and install wine 64 & 32 for wow64
+- `apply-patchs.sh` all apply patch from paint.net on wine to the local wine source
+- `configure.sh` configure wine build folder (./build/64 and ./build/32)
+- `createprefix.sh` create prefix and install required rependencies
+
+- `wine` small script to run the modified wine on the created prefix from this directory
+- `winetricks` small script to run winetrict with the modified wine and the prefix
+
