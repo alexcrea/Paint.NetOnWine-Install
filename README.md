@@ -8,6 +8,8 @@ Note that this is a very unstable version. expect NOTHING to work. this scripts 
 It is expected that you have installed required dependencies to build wine (see https://gitlab.winehq.org/wine/wine/-/wikis/Building-Wine#satisfying-build-dependencies)
 You should also have [Winetricks](https://github.com/winetricks/winetricks) installed
 
+It will install the modified version of wine inside ./install so should not impact your systemwise wine
+
 ## Installation
 
 - Clone this
