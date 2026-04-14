@@ -3,7 +3,8 @@ This project is a set of small scripts to handle clone, patch, build and install
 
 Project repo: https://github.com/bluesillybeard/Paint.NETOnWine
 
-Note that this is a very unstable version. **expect NOTHING to work**. this scripts do not mai
+Note that this is a very unstable version. **expect NOTHING to work**. \
+It is not ready for the general public and should only be used for developement purpose. 
 
 It is expected that you have installed required dependencies to build wine (see https://gitlab.winehq.org/wine/wine/-/wikis/Building-Wine#satisfying-build-dependencies)
 You should also have [Winetricks](https://github.com/winetricks/winetricks) installed
