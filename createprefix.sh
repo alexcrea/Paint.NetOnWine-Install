@@ -2,8 +2,7 @@
 export INSTALL_DIR=$PWD/install
 
 # install things for the prefix
-./winetricks dotnet48
-./winetricks arial calibri
+./winetricks arial calibri corefonts
 ./winetricks dxvk
 
 # set prefix as window10
