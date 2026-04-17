@@ -22,7 +22,7 @@ you can likely install it in the prefix with `./winetricks dotnet48`. but you sh
 It will take a long time to build wine. \
 Afterward, a wine prefix will be created. dotnet48 will prompt you to get installed
 
-The install script was not made with being run twice in mind. 
+The install script was not made with being run twice in mind. \
 You likely need to `git reset --hard` and `git clean -f ` inside the source folder 
 
 ## Running
