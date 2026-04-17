@@ -8,14 +8,3 @@ cd ./build/64
   --enable-win64 \
   --prefix=$INSTALL_DIR
 
-# 32 bit configure
-mkdir ../32
-cd ../32
-
-../../source/configure \
-  --with-wine64=../64 \
-  --prefix=$INSTALL_DIR
-
-cd ../..
-
-

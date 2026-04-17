@@ -12,7 +12,7 @@ cd ..
 ./configure.sh
 
 # make the project
-./makeinstall-all.sh
+./makeinstall.sh
 
 # create prefix
 ./createprefix.sh
