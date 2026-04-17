@@ -19,8 +19,7 @@ you can likely install it in the prefix with `./winetricks dotnet48`. but you sh
 - Clone this `git clone https://github.com/alexcrea/Paint.NetOnWine-Install wine-pdn`
 - run `cd wine-pdn` then `./install.sh`
 
-It will take a long time to build wine. \
-Afterward, a wine prefix will be created. dotnet48 will prompt you to get installed
+It will take a long time to build wine.
 
 The install script was not made with being run twice in mind. \
 You likely need to `git reset --hard` and `git clean -f ` inside the source folder 
