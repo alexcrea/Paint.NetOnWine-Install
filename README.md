@@ -1,7 +1,7 @@
 
-This project is a set of small scripts to handle clone, patch, build and installation of wine to try to run paint.net 4 and 5
+This project is a set of small scripts to handle clone, patch, build and installation of a patched wine to try to run paint.net 4 and 5
 
-Project repo: https://github.com/bluesillybeard/Paint.NETOnWine
+Patchs repo: https://github.com/bluesillybeard/Paint.NETOnWine
 
 Note that this is a very unstable version. **expect NOTHING to work** \
 It is not ready for the general public and should only be used for developement purpose
@@ -9,19 +9,23 @@ It is not ready for the general public and should only be used for developement 
 It is expected that you have installed required dependencies to build wine (see https://gitlab.winehq.org/wine/wine/-/wikis/Building-Wine#satisfying-build-dependencies)
 You should also have [Winetricks](https://github.com/winetricks/winetricks) installed
 
-It will install the modified version of wine inside ./install so should not impact your systemwise wine
+It will install the modified wine inside ./install so should not impact your systemwise wine
 
-Not that the this installation assume you are using either a portable version of paint.net or a cpu specific installer. "anycpu" installer require dotnet48
+As per the paint.net developer wish, These scripts won't be providing you old version of wine. You may find some 
+Not that the this installation assume you are using either a portable version of paint.net (prefered) or a cpu specific installer. "anycpu" installer require dotnet48 \
 you can likely install it in the prefix with `./winetricks dotnet48`. but you should not and may require wow64
+
+**DO NOT** send bug report to the paint.net developer. do not waste his time\
+It is a community project issues should be handled in the [patch repo](https://github.com/bluesillybeard/Paint.NETOnWine)
 
 ## Installation
 
 - Clone this `git clone https://github.com/alexcrea/Paint.NetOnWine-Install wine-pdn`
-- run `cd wine-pdn` then `./install.sh`
+- Run `cd wine-pdn` then `./install.sh`
 
-It will take a long time to build wine.
+It will take a long time to build wine
 
-The install script was not made with being run twice in mind. \
+The install.sh script is currently not made with being run twice in mind \
 You likely need to `git reset --hard` and `git clean -f ` inside the source folder 
 
 ## Running
