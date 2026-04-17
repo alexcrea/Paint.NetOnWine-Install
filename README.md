@@ -12,7 +12,8 @@ You should also have [Winetricks](https://github.com/winetricks/winetricks) inst
 It will install the modified wine inside ./install so should not impact your systemwise wine
 
 As per the paint.net developer wish, These scripts won't be providing you old version of wine. You may find some in known archive site but run them at your own risk
-Not that the this installation assume you are using either a portable version of paint.net (prefered) or a cpu specific installer. "anycpu" installer require dotnet48 \
+
+Note that the this installation assume you are using either a portable version of paint.net (prefered) or a cpu specific installer. "anycpu" installer require dotnet48 \
 you can likely install it in the prefix with `./winetricks dotnet48`. but you should not and may require wow64
 
 **DO NOT** send bug report to the paint.net developer. do not waste his time\
