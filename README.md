@@ -1,3 +1,4 @@
+# Legacy install method. it is preferable to use pdnhelper of the project itself
 
 This project is a set of small scripts to handle clone, patch, build and installation of a patched wine to try to run paint.net 4 and 5
 
